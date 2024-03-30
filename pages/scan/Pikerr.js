@@ -63,7 +63,7 @@
  import  FileSystem from "expo-file-system";
  import { Buffer } from "buffer";  // Import the 'buffer' package to convert the encrypted file content to a Buffer
  import axios from "axios";       // Import the 'axios' package to send the encrypted file content to the server
-import jestConfig from "../../CameraExample/jest.config";
+
  const MyComponent = () => {
   
        const [selectedDocument, setSelectedDocument] = useState();
